@@ -2,7 +2,7 @@ import Link from "next/link"
 import { useEffect } from "react"
 import $ from 'jquery';
 import {FaBars} from "react-icons/fa"
-import logo from "../Images/logo.png"
+import logo from "../public/Images/logo.png"
 import Image from "next/image";
 
 if (typeof window !== 'undefined') {

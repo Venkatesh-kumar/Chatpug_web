@@ -2,7 +2,7 @@ import Link from "next/link";
 import Styles from "../styles/Fotter.module.css";
 import {FaFacebookSquare,FaTwitterSquare,FaHeart,FaInstagramSquare} from "react-icons/fa";
 import Image from "next/image";
-import logo from "../Images/logo.png"
+import logo from "../public/Images/logo.png"
 const Fotter = () =>{
     return(
         <section className="ffooter">

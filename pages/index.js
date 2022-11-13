@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import pug from "../Images/pug.jpg"
-import Android from "../Images/android.png"
-import apple from "../Images/apple.png"
+import pug from "../public/Images/pug.jpg"
+import Android from "../public/Images/android.png"
+import apple from "../public/Images/apple.png"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         <section style={{width:'100%',marginTop:10}}>
                 <div className="row container"  style={{width:'100%'}}>
                   <div className="col s12 l6 m6 left ">
-                    <Image src={pug} height={600} width={600} />
+                    <Image src={pug} height={600} width={600} alt="Chatpug" />
                     </div>
                     <div className="col s12 l6 m6 center">
                         <div style={{color:'#01caba',fontFamily:'Agency FB'}} >
@@ -30,11 +31,10 @@ export default function Home() {
                             <h5>Chatpug is a great place to meet new friends online. Strangers lobby feature allows you to meet random strangers and talk one-to-one.</h5>
                             <h5>You can either stay anonymous or you can share your username and add stranger to your friendslist. You can end anonymous chat at any time.</h5>
                             <h5>You can share photos and videos to your friends and followers. Chats with your friends will be stored in your device permanently til you leave us.</h5>
-                            <h5>You must be 18 years or older to use Chatpug. See our <a href="/termsandconditions">Terms of Service</a> and <a href="/CommunityGuidelines">Community Guidelines</a> for more information.</h5>
+                            <h5>You must be 18 years or older to use Chatpug. See our <Link href="/termsandconditions">Terms of Service</Link> and <Link href="/CommunityGuidelines">Community Guidelines</Link> for more information.</h5>
                             <h5>We do not encourage adult content to be used during text and video chat sessions. Chatpug will suspend those accounts without any prior notice.</h5>
                             <br />
                             <h4>Download Chatpug App today!</h4>
-                            {/* <a className="btn large downloadButton">DOWNLOAD IOS APP</a> */}
                         </div>
                     </div>
                 </div>
