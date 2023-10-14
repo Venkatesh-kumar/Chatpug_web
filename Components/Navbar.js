@@ -2,7 +2,7 @@ import Link from "next/link"
 import { useEffect } from "react"
 import $ from 'jquery';
 import {FaBars} from "react-icons/fa"
-import logo from "../public/Images/logo.png"
+import logo from "../public/Images/logo_light.png"
 import Image from "next/image";
 
 if (typeof window !== 'undefined') {
@@ -21,7 +21,7 @@ export default function Navbar(){
                 <div className="navbar-fixed">
                 <nav className="nav-fixed">
                     <div className="nav-wrapper">
-                       <Image src={logo} alt="Chatpug" height={50} width={140} />
+                       <Image src={logo} alt="Chatpug" height={50} width={110} />
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger hide-on-med-and-up"><FaBars size={24} round={true} /></a>
                         <ul id="nav-mobile" className="right  hide-on-med-and-down ">
                             <li ><Link href="/" >Home</Link></li>
@@ -45,7 +45,7 @@ export default function Navbar(){
                 <style jsx>
                     {`
                         .nav-wrapper{
-                            background-color: #01caba;
+                            background-color: #111;
                             padding-left: 50px;
                             padding-right: 50px;
                         }

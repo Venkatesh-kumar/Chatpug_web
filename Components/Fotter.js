@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Styles from "../styles/Fotter.module.css";
-import {FaFacebookSquare,FaTwitterSquare,FaHeart,FaInstagramSquare} from "react-icons/fa";
+import {FaTwitterSquare,FaHeart,FaInstagramSquare, FaEnvelopeSquare} from "react-icons/fa";
 import Image from "next/image";
-import logo from "../public/Images/logo.png"
+import logo from "../public/Images/logo_light.png"
 const Fotter = () =>{
     return(
         <section className="ffooter">
@@ -16,9 +16,10 @@ const Fotter = () =>{
                     <p className="grey-text text-lighten-4">Follow us on</p>
                     <div>
                         
-                    <a href="https://www.facebook.com/snapwheels.online" target="_blank"  rel="noreferrer" className="white-text"><FaFacebookSquare size={24} round={true}></FaFacebookSquare> &nbsp;</a>
-                    <a href="https://twitter.com/ImSnapwheels" target="_blank" rel="noreferrer" className="white-text"><FaTwitterSquare size={24} round={true}></FaTwitterSquare>&nbsp;</a>
-                    <a href="https://www.instagram.com/snapwheels/" target="_blank" rel="noreferrer" className="white-text"><FaInstagramSquare size={24} round={true}></FaInstagramSquare></a>
+                    {/* <a href="https://www.facebook.com/snapwheels.online" target="_blank"  rel="noreferrer" className="white-text"><FaFacebookSquare size={24} round={true}></FaFacebookSquare> &nbsp;</a> */}
+                    <a href="https://twitter.com/chatpug_com" target="_blank" rel="noreferrer" className="white-text"><FaTwitterSquare size={24} round={true}></FaTwitterSquare>&nbsp;</a>
+                    <a href="https://www.instagram.com/chatpug" target="_blank" rel="noreferrer" className="white-text"><FaInstagramSquare size={24} round={true}></FaInstagramSquare></a>
+                    <a href="mailto: hello@chatpug.com" target="_blank" rel="noreferrer" className="white-text"><FaEnvelopeSquare size={24} round={true}></FaEnvelopeSquare></a>
                     </div>
                     </div>
                     <div className="col l4 offset-l2 s12">
@@ -30,7 +31,7 @@ const Fotter = () =>{
                         
                         </ul>
                         <br />
-                        <Image src={logo} alt="Snapwheels Logo" height={50} width={140}></Image>
+                        <Image src={logo} alt="Snapwheels Logo" height={50} width={110}></Image>
                     </div>
                 </div>
                 </div>
@@ -42,7 +43,7 @@ const Fotter = () =>{
             </footer>
             <style jsx>{`
                 .page-footer{
-                    background-color: #01caba;
+                    background-color: #111;
                 }
             `}</style>
         </section>

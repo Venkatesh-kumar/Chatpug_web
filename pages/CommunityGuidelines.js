@@ -4,35 +4,62 @@ import Styles from "../styles/Terms.module.css";
 
  const termsandconditions = () => {
     return (
-        <div>
+        <div style={{padding:100}}>
             <br /><br />
-           <h5 style={{color:'blue'}}>Chatpug Community Guidelines</h5> 
+           <h5 style={{color:'#008397', fontWeight:'bolder'}}>Chatpug Community Guidelines</h5> 
            <br /><br />
-Last Updated: 2022-11-13
+           ChatPug Community Guidelines
+           <br /><br />
+Welcome to ChatPug! Our community is built on mutual respect, trust, and a shared passion for [describe the purpose or theme of your website]. To ensure a positive experience for everyone, we've established the following community guidelines:
 <br /><br />
-Chatpug was created to provide a platform where people could connect with other people of diverse backgrounds and experiences that may differ from their own. Chatpug’s Community Guidelines are intended to further that goal by providing general guidance and explaining what is and isn’t allowed on Chatpug. They are not intended to comprehensively identify every type of inappropriate or unlawful conduct or content. Users should be guided by common sense and an expectation that they should treat their fellow users with respect.
+1. Be Respectful and Inclusive
 <br /><br />
-These Community Guidelines apply to your access to and use of the Chatpug website and any services offered by Chatpug (collectively, the “Services”). Chatpug reserves the right to revise these Community Guidelines at any time for any reason and updates will be posted to the Services. These Community Guidelines are in addition to the Chatpug Terms of Service, which also apply to your access to and use of the Services.
+Treat others with kindness, empathy, and respect. Do not engage in any form of harassment, discrimination, hate speech, or offensive behavior based on race, ethnicity, gender, religion, sexual orientation, or any other personal characteristic.
 <br /><br />
-Chatpug reserves the right to ban (temporarily or permanently) or take other appropriate action with or without notice with respect to any user that engages in conduct that Chatpug determines, in its sole discretion, to be inappropriate or harmful, whether or not such conduct is identified below.
+2. Keep it Safe
 <br /><br />
-If you encounter conduct or content on the Services that you believe violate any of the guidelines below or if you have other safety concerns about the Services, please contact Chatpug at safety@Chatpug.com and include “Chatpug-Safety” in the subject line. While Chatpug is not responsible to you as a user for enforcing these Community Guidelines, reports of violations are helpful to Chatpug.
+Maintain a safe and secure environment. Do not share personal information, engage in cyberbullying, or post content that may be harmful, threatening, or harassing.
 <br /><br />
-Parental control protections (such as computer hardware, software, or filtering services) are also commercially available and may assist you in limiting minors’ access to materials that may be harmful to or inappropriate for minors. There are a number of websites that provide information about such parental control protections, including but not limited to https://www.connectsafely.org/controls/.
+3. No Spam or Self-Promotion
 <br /><br />
-Violations of the Law. You must comply with all applicable local, national and international laws while using the Services. Any content, activity or conduct featuring, encouraging, offering, or soliciting illegal activity or content is prohibited. Chatpug reserves the right to report any such violations to law enforcement.
-Ban Circumvention. Any attempt to circumvent a ban, whether temporary or permanent, is prohibited.
-Violence and Threats. Threats of violence or threats to harm others are strictly prohibited. This includes threats to physically harm others, attempts to intimidate others, terroristic threats, threats to obtain or disclose personal information or private content of others or threats intended to force another user to engage in unwanted or inappropriate conduct.
-Hateful Conduct and Harassment. Conduct and content that attacks or denigrates others based on characteristics such as race, ethnicity, gender, sexual orientation, gender identity, immigration status, disability or national origin is prohibited. Harassment of any kind, including without limitation unwelcome sexual advances and solicitations, malicious false reporting of other users, and personal attacks, are prohibited.
-Nudity, Pornography and Sexually Explicit Conduct and Content. Nudity, pornography and sexually explicit conduct and content are prohibited on the moderated sections of the Services. Content or conduct that threatens or promotes sexual violence or exploitation are strictly prohibited on any portion of the Services and may be reported to law enforcement.
-Conduct or Content Involving Minors. All conduct or content that exploits, sexualizes or endangers the safety of minors in any way is strictly prohibited on any of the Services. We report such content and conduct to the National Center for Missing and Exploited Children and/or the appropriate law enforcement agency(ies).
-Unauthorized Sharing of Private Information. Respect the privacy of others. Do not attempt to obtain or share content that may reveal private personal information about individuals without their permission.
-Impersonation. Impersonating someone else or attempting to deceive other users about who you are (including by providing false information) is prohibited.
-Self-Harm. Conduct or content that glorifies, encourages or promotes self-harm is prohibited.
-Animal Cruelty. Conduct or content that involves or promotes harm or cruelty to animals is prohibited.
-Marketing and Advertising. The Services may not be used to market, advertise or promote any goods or services.
-Bots. Use of bots of any kind to access or use the Services is prohibited.<br /><br /><br /><br /><br /><br />
-        </div>
+Avoid spamming the community with excessive self-promotion, advertisements, or irrelevant content. This includes links to external websites or products without prior approval.
+<br /><br />
+4. Respect Privacy
+<br /><br />
+Respect the privacy of others. Do not share private or confidential information about any individual or entity without their explicit consent.
+<br /><br />
+5. Report Inappropriate Content
+<br /><br />
+If you come across any content that violates these guidelines, please report it promptly using our reporting tools. This helps us maintain a safe and welcoming community.
+<br /><br />
+6. Stay On Topic
+<br /><br />
+Ensure that your contributions align with the purpose and theme of ChatPug. Off-topic posts may be removed at the discretion of the moderators.
+<br /><br />
+7. No Plagiarism or Copyright Violations
+<br /><br />
+Do not post content that infringes on the intellectual property rights of others. This includes copyrighted text, images, videos, or any other material.
+<br /><br />
+8. Be Constructive
+<br /><br />
+Engage in discussions in a constructive and meaningful way. Provide valuable insights, feedback, and support to fellow community members.
+<br /><br />
+9. Follow Legal and Ethical Standards
+<br /><br />
+Adhere to all applicable laws and regulations. Do not engage in any illegal activities or encourage others to do so.
+<br /><br />
+10. Respect Moderators' Decisions
+<br /><br />
+Moderators have the final say on any disputes or violations of these guidelines. Please respect their decisions and refrain from arguing or retaliating.
+<br /><br />
+11. Consequences of Violation
+<br /><br />
+Failure to comply with these guidelines may result in warnings, temporary suspensions, or permanent bans, depending on the severity and frequency of the violation.
+
+By participating in the ChatPug community, you agree to abide by these guidelines. We reserve the right to update or modify these guidelines at any time.
+
+Thank you for being a part of our community!
+<br /><br />        </div>
     )
 }
 

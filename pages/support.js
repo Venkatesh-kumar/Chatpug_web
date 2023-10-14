@@ -4,23 +4,23 @@ import {FaFacebook,FaInstagramSquare,FaWhatsapp,FaTwitter,FaEnvelope,FaPhone} fr
 
  const support = () => {
     return (
-        <div>
+        <div style={{backgroundColor:"#111"}}>
             <div className="supportContainer container">
                 <div className={Styles.bannerContainer}>
                     <h1>Hello.</h1>
                     <h5>Talk to us! we love to help you.</h5>
                 </div>
-                <div className="row" style={{marginTop:50,marginBottom:50}}>
-                    <div className="col s6 m4 l3 center">
+                <div className="row" style={{paddingTop:50,paddingBottom:50}}>
+                    {/* <div className="col s6 m4 l3 center">
                         <a href='https://wa.me/+916362292540' target="_blank" rel="noreferrer" className="carousel-item" >
                             <div className="card-panel carouselwhatsappcard">
                                 <FaWhatsapp size={120} ></FaWhatsapp>
                                 <h5>WhatsApp</h5>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="col s6 m4 l3 center">
-                        <a href='mailto: support@snapwheels.online' target="_blank" rel="noreferrer" className="carousel-item" >
+                        <a href='mailto: hello@chatpug.com' target="_blank" rel="noreferrer" className="carousel-item" >
                             <div className="card-panel carouselenvelopecard">
                                 <FaEnvelope size={120}></FaEnvelope>
                                 <h5>Email</h5>
@@ -35,16 +35,16 @@ import {FaFacebook,FaInstagramSquare,FaWhatsapp,FaTwitter,FaEnvelope,FaPhone} fr
                             </div>
                         </a>
                     </div> */}
-                    <div className="col s6 m4 l3 center">
+                    {/* <div className="col s6 m4 l3 center">
                         <a href='https://www.facebook.com/snapwheels.online' target="_blank" rel="noreferrer" className="carousel-item" >
                             <div className="card-panel carouselfacebookcard" >
                                 <FaFacebook size={120}></FaFacebook>
                                 <h5>Facebook</h5>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="col s6 m4 l3 center">
-                        <a href='https://www.instagram.com/snapwheels/' target="_blank" rel="noreferrer" className="carousel-item" >
+                        <a href='https://www.instagram.com/chatpug/' target="_blank" rel="noreferrer" className="carousel-item" >
                             <div className="card-panel carouselinstagramcard" >
                                 <FaInstagramSquare size={120}></FaInstagramSquare>
                                 <h5>Instagram</h5>
@@ -52,7 +52,7 @@ import {FaFacebook,FaInstagramSquare,FaWhatsapp,FaTwitter,FaEnvelope,FaPhone} fr
                         </a>
                     </div>
                     <div className="col s6 m4 l3 center">
-                        <a href='https://www.twitter.com/ImSnapwheels' target="_blank" rel="noreferrer" className="carousel-item" >
+                        <a href='https://www.twitter.com/chatpug_com' target="_blank" rel="noreferrer" className="carousel-item" >
                             <div className="card-panel carouseltwittercard" >
                                 <FaTwitter size={120}></FaTwitter>
                                 <h5>Twitter</h5>
