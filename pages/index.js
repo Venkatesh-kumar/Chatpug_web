@@ -22,19 +22,17 @@ export default function Home() {
         <section style={{width:'100%',marginTop:30}}>
                 <div className="row container"  style={{width:'100%'}}>
                   <div className="col s12 l6 m6 left ">
-                    <Image src={pug} height={600} width={600} alt="Chatpug" />
+                    <Image src={pug} height={400} width={500} alt="Chatpug" />
                     </div>
                     <div className="col s12 l6 m6 center">
                         <div style={{color:'#01caba',fontFamily:'Agency FB'}} >
                             
-                            <h5 style={{fontSize:20}}>Chatpug is a social networking service where users can text, video chat, photo and video share with friends and random anonymous people.</h5>
-                            <h5 style={{fontSize:20}}>Chatpug is a great place to meet new friends online. Strangers lobby feature allows you to meet random strangers and talk one-to-one.</h5>
-                            <h5 style={{fontSize:20}}>You can either stay anonymous or you can share your username and add stranger to your friendslist. You can end anonymous chat at any time.</h5>
-                            <h5>You can share photos and videos to your friends and followers. Chats with your friends will be stored in your device permanently til you leave us.</h5>
-                            <h5>You must be 18 years or older to use Chatpug. See our <Link href="/termsandconditions">Terms of Service</Link> and <Link href="/CommunityGuidelines">Community Guidelines</Link> for more information.</h5>
-                            <h5>We do not encourage adult content to be used during text and video chat sessions. Chatpug will suspend those accounts without any prior notice.</h5>
-                            <br />
-                            <h4>Download Chatpug App today!</h4>
+                            <h5 style={{fontSize:20}}>Chatpug is a modern dating app for single and open mided people to find their forever partner. We help you to find your partner who shares your desire for true and serious relationship.</h5>
+                            <h5 style={{fontSize:20}}>Chatpug is a great place to meet new friends online. Our moments feature allows you to connect with awesome people around you and form meaningful relationships.</h5>
+                            <h5 style={{fontSize:20}}>You can either take help by joining our MEET MY PUG dating program or you can find yourself your partner with the help of our moments feature.</h5>
+                            <h5 style={{fontSize:20}}>You must be 18 years or older to use Chatpug. See our <Link href="/termsandconditions">Terms of Service</Link> and <Link href="/CommunityGuidelines">Community Guidelines</Link> for more information.</h5>
+                             <br />
+                            <h4>Download ChatPug App today!</h4>
                         </div>
                     </div>
                 </div>
@@ -46,7 +44,7 @@ export default function Home() {
                     <div className="col s12 l6 m6 center ">
                         <div >
                             <Image src={Android} alt="Snapwheels" height={200} width="250"></Image>
-                            <h5 className="center" style={{color:'#eee',fontSize:24}} >Easy access on mobile app. Install our android mobile app to get exciting offers and amazing features.</h5>
+                            <h5 className="center" style={{color:'#eee',fontSize:20}} >Easy access on mobile app. Install our android mobile app to start your dating journey.</h5>
                             <a className="btn large downloadButton" onClick={()=>window.open(
                                     'https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>DOWNLOAD ANDROID APP</a>
                         </div>
@@ -54,7 +52,7 @@ export default function Home() {
                     <div className="col s12 l6 m6 center">
                         <div className={styles.downloadBox}>
                             <Image src={apple} alt="Snapwheels" height={200} width="200"></Image>
-                            <h5 className="center grey-text"  style={{fontSize:24}}>Sorry, we are not available in App store yet. Our team is continuously working to make it happen soon!</h5>
+                            <h5 className="center grey-text"  style={{fontSize:20}}>Sorry, we are not available in App store yet. Our team is continuously working to make it happen soon!</h5>
                             {/* <a className="btn large downloadButton">DOWNLOAD IOS APP</a> */}
                         </div>
                     </div>
