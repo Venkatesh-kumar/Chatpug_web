@@ -8,7 +8,7 @@ import React from 'react'
            <h5 style={{color:'#008397', fontWeight:'bolder'}}> CHATPUG TERMS OF SERVICE AGREEMENT</h5><br /><br />
            ChatPug Terms and Conditions
            <br /><br />
-These terms and conditions ("Agreement") govern the use of the ChatPug website ("the Website") and are entered into by and between ChatPug ("Company") and the user ("User" or "you"). This Agreement constitutes the entire agreement between the Company and User concerning the subject matter hereof.
+These terms and conditions (Agreement) govern the use of the ChatPug website (the Website) and are entered into by and between ChatPug (Company) and the user (User or you). This Agreement constitutes the entire agreement between the Company and User concerning the subject matter hereof.
 <br /><br />
 1. Acceptance of Terms
 <br /><br />

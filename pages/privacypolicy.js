@@ -6,7 +6,7 @@ import React from 'react'
                 <h2 style={{color:'#008397'}}>Privacy Policy</h2>
                 Privacy Policy for ChatPug
 <br/><br/>
-This Privacy Policy describes how ChatPug ("we", "our", or "us") collects, uses, and shares personal information when you use our website [www.chatpug.com] ("the Website").
+This Privacy Policy describes how ChatPug (we, our, or us) collects, uses, and shares personal information when you use our website [www.chatpug.com] (the Website).
 <br/><br/>
 1. Information We Collect
 <br/><br/>

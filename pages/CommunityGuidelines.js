@@ -10,7 +10,7 @@ import Styles from "../styles/Terms.module.css";
            <br /><br />
            ChatPug Community Guidelines
            <br /><br />
-Welcome to ChatPug! Our community is built on mutual respect, trust, and a shared passion for [describe the purpose or theme of your website]. To ensure a positive experience for everyone, we've established the following community guidelines:
+Welcome to ChatPug! Our community is built on mutual respect, trust, and a shared passion for [describe the purpose or theme of your website]. To ensure a positive experience for everyone, we have established the following community guidelines:
 <br /><br />
 1. Be Respectful and Inclusive
 <br /><br />
@@ -48,7 +48,7 @@ Engage in discussions in a constructive and meaningful way. Provide valuable ins
 <br /><br />
 Adhere to all applicable laws and regulations. Do not engage in any illegal activities or encourage others to do so.
 <br /><br />
-10. Respect Moderators' Decisions
+10. Respect Moderators Decisions
 <br /><br />
 Moderators have the final say on any disputes or violations of these guidelines. Please respect their decisions and refrain from arguing or retaliating.
 <br /><br />

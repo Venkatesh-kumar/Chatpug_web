@@ -42,7 +42,7 @@ export default function Home() {
         
         <section style={{backgroundColor:'#111',width:'100%',marginTop:60,paddingBottom:100,borderRadius:20}}>
                 <div className="row container">
-                <h3 className="center white-text" style={{marginBottom:100,marginTop:100,fontWeight:'bold', fontFamily:'Roboto'}}>ChatPug's Mobile App</h3>
+                <h3 className="center white-text" style={{marginBottom:100,marginTop:100,fontWeight:'bold', fontFamily:'Roboto'}}>ChatPug Mobile App</h3>
                     <div className="col s12 l6 m6 center ">
                         <div >
                             <Image src={Android} alt="Snapwheels" height={200} width="250"></Image>
