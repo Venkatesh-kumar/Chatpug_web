@@ -21,13 +21,13 @@ export default function Home() {
         </h1>
         <section style={{width:'100%',marginTop:30}}>
                 <div className="row container"  style={{width:'100%'}}>
-                  <div className="col s12 l6 m6 left ">
-                    <Image src={pug} height={400} width={500} alt="Chatpug" />
+                  <div className="col s12 l6 m6 center ">
+                    <Image src={pug} height={250} width={300} alt="Chatpug" />
                     </div>
                     <div className="col s12 l6 m6 center">
                         <div style={{color:'#01caba',fontFamily:'Agency FB'}} >
                             
-                            <h5 style={{fontSize:20}}>Chatpug is a modern dating app for single and open mided people to find their forever partner. We help you to find your partner who shares your desire for true and serious relationship.</h5>
+                            <h5 style={{fontSize:20}}>Chatpug is a modern dating app for single and open minded people to find their forever partner. We help you to find your partner who shares your desire for true and serious relationship.</h5>
                             <h5 style={{fontSize:20}}>Chatpug is a great place to meet new friends online. Our moments feature allows you to connect with awesome people around you and form meaningful relationships.</h5>
                             <h5 style={{fontSize:20}}>You can either take help by joining our MEET MY PUG dating program or you can find yourself your partner with the help of our moments feature.</h5>
                             <h5 style={{fontSize:20}}>You must be 18 years or older to use Chatpug. See our <Link href="/termsandconditions">Terms of Service</Link> and <Link href="/CommunityGuidelines">Community Guidelines</Link> for more information.</h5>
@@ -38,14 +38,14 @@ export default function Home() {
                 </div>
             </section>
         
-        <section style={{backgroundColor:'#111',width:'100%',marginTop:60,paddingBottom:100,borderRadius:20}}>
+        <section style={{backgroundColor:'#111',width:'100%',marginTop:20,paddingBottom:40,borderRadius:20}}>
                 <div className="row container">
-                <h3 className="center white-text" style={{marginBottom:100,marginTop:100,fontWeight:'bold', fontFamily:'Roboto'}}>ChatPug Mobile App</h3>
+                <h3 className="center white-text" style={{marginBottom:20,marginTop:20,fontWeight:'bold', fontFamily:'Roboto'}}>ChatPug Mobile App</h3>
                     <div className="col s12 l6 m6 center ">
                         <div >
                             <Image src={Android} alt="Snapwheels" height={200} width="250"></Image>
                             <h5 className="center" style={{color:'#eee',fontSize:20}} >Easy access on mobile app. Install our android mobile app to start your dating journey.</h5>
-                            <a className="btn large downloadButton" onClick={()=>window.open(
+                            <a className="btn large downloadButton" style={{marginTop:20,marginBottom:60, borderRadius:20}} onClick={()=>window.open(
                                     'https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>DOWNLOAD ANDROID APP</a>
                         </div>
                     </div>
