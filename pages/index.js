@@ -46,7 +46,7 @@ export default function Home() {
                             <Image src={Android} alt="Snapwheels" height={200} width="250"></Image>
                             <h5 className="center" style={{color:'#eee',fontSize:20}} >Easy access on mobile app. Install our android mobile app to start your dating journey.</h5>
                             <a className="btn large downloadButton" style={{marginTop:20,marginBottom:60, borderRadius:20}} onClick={()=>window.open(
-                                    'https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>DOWNLOAD ANDROID APP</a>
+                                    'https://play.google.com/store/apps/details?id=com.chatpug','_blank' )}>DOWNLOAD ANDROID APP</a>
                         </div>
                     </div>
                     <div className="col s12 l6 m6 center">

@@ -27,7 +27,7 @@ export default function Navbar(){
                             <li ><Link href="/" >Home</Link></li>
                             {/* <li ><Link href="/tariff" >Tariff</Link></li> */}
                            <li ><Link href="/support">Support</Link></li>
-                           <li > <a className="btn" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>Download App</a></li>
+                           <li > <a className="btn" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.chatpug','_blank' )}>Download App</a></li>
                         </ul>
                         
                     </div>
@@ -38,7 +38,7 @@ export default function Navbar(){
                     <ul className="sidenav" id="mobile-demo">
                         <li><Link href="/">Home</Link></li>
                         {/* <li><Link href="/tariff">Tariff</Link></li> */}
-                        <li><Link href="/support">Support</Link></li><li > <a className="btn large downloadButton" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.snapwheels','_blank' )}>Download App</a></li>
+                        <li><Link href="/support">Support</Link></li><li > <a className="btn large downloadButton" onClick={()=>window.open('https://play.google.com/store/apps/details?id=com.chatpug','_blank' )}>Download App</a></li>
                         
                     </ul>
 
