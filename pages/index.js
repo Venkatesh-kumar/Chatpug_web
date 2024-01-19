@@ -52,8 +52,8 @@ export default function Home() {
                     <div className="col s12 l6 m6 center">
                         <div className={styles.downloadBox}>
                             <Image src={apple} alt="Snapwheels" height={200} width="200"></Image>
-                            <h5 className="center grey-text"  style={{fontSize:20}}>Sorry, we are not available in App store yet. Our team is continuously working to make it happen soon!</h5>
-                            {/* <a className="btn large downloadButton">DOWNLOAD IOS APP</a> */}
+                            <h5 className="center grey-text"  style={{fontSize:20}}>Sorry, we are not available in App store yet. Register with us using below link.</h5>
+                            <Link className='btn large downloadButton' href="/mmp" style={{marginTop:20,marginBottom:60, borderRadius:20, color:'#fff'}}>Register here</Link>
                         </div>
                     </div>
                 </div>
