@@ -23,7 +23,7 @@ if (typeof window !== 'undefined') {
         </section>
         <section>
             <div className="welcomeContainer container">
-            <h3 className={styles.welcomeText}>Welcome to ChatPug's Dating Program!</h3>
+            <h3 className={styles.welcomeText}>Welcome to ChatPug Dating Program!</h3>
             </div>
         </section>
         <section>
