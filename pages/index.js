@@ -35,7 +35,7 @@ export default function Home() {
                 <div className="row "  style={{width:'100%'}}>
                   
                     <div className="col s12 center">
-                        <div style={{color:'#01caba', fontFamily:'cursive'}} >
+                        <div style={{color:'#01caba', fontFamily:'cursive', borderWidth:10, borderColor:'#008397'}} >
                             
                             <h5 style={{fontSize:30}}>Chatpug is a modern dating app for single and open minded people to find their forever partner. We help you to find your partner who shares your desire for true and serious relationship.</h5>
                             <br />
@@ -107,8 +107,8 @@ export default function Home() {
                     <div className="col s12 l6 m6 center">
                         <div className={styles.downloadBox}>
                             <Image src={apple} alt="Snapwheels" height={200} width="200"></Image>
-                            <h5 className="center grey-text"  style={{fontSize:20}}>Sorry, we are not available in App store yet. Register with us using below link.</h5>
-                            <Link className='btn large downloadButton' href="/mmp" style={{marginTop:20,marginBottom:60, borderRadius:20, color:'#fff'}}>Register here</Link>
+                            <h5 className="center grey-text"  style={{fontSize:20}}>Sorry, we are not available in App store yet. Contact us to register.</h5>
+                            <Link className='btn large downloadButton' href="/support" style={{marginTop:20,marginBottom:60, borderRadius:20, color:'#fff'}}>CONTACT US</Link>
                         </div>
                     </div>
                 </div>
