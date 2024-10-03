@@ -28,6 +28,7 @@ const Fotter = () =>{
                             <li><Link href="/termsandconditions" ><p className={Styles.footerLinkText}>Terms and Condition</p></Link></li>
                             <li><Link href="/privacypolicy"><p className={Styles.footerLinkText}>Privacy Policy</p></Link></li>
                             <li><Link href="/CommunityGuidelines"><p className={Styles.footerLinkText}>Community Guidelines</p></Link></li>
+                            <li><Link href="/refundpolicy"><p className={Styles.footerLinkText}>Refund Policy</p></Link></li>
                         
                         </ul>
                         <br />
