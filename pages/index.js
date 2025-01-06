@@ -44,33 +44,29 @@ export default function Home() {
                   fontFamily: "cursive"
                 }}
               >
-                <h5 style={{ fontsize: 24 }}>
-                  Chatpug is a modern dating app for single and open minded
-                  people to find their forever partner. We help you to find your
-                  partner who shares your desire for true and serious
-                  relationship.
-                </h5>
+                <p style={{ fontsize: 18 }}>
+                Chatpug is all about bringing people together through one-of-a-kind events and experiences that inspire connection and creativity. Whether you are an artist, a foodie, or just someone who loves trying new things, we have got something for you. Our events range from hands-on art and dance workshops to cooking classes, social meetups, and so much more. We aim to create a vibrant community where you can explore your passions, pick up new skills, and make meaningful connections in a fun and welcoming space.
+                </p>
                 <br />
-                <h5 style={{ fontsize: 24 }}>
-                  Chatpug is a great place to meet new friends online. Our
-                  moments feature allows you to connect with awesome people
-                  around you and form meaningful relationships.
-                </h5>
+                <p style={{ fontsize: 18 }}>
+                What sets us apart is our commitment to curating truly unique gatherings. At Chatpug, every event is carefully designed to offer an experience you will not find anywhere else. Love art? Join us for a collaborative mural painting. Into food? Sign up for our international cooking series and learn recipes from around the globe. Even if you just want to unwind, our casual meetups and themed hangouts are perfect for making new friends and sharing laughs.
+                </p>
                 <br />
-                <h5 style={{ fontsize: 24 }}>
-                  You can either take help by joining our MEET MY PUG dating
-                  program or you can find yourself your partner with the help of
-                  our moments feature.
-                </h5>
+                {/* <p style={{ fontsize: 18 }}>
+                We also believe in the power of learning and personal growth. Our workshops and classes are led by passionate experts who share their knowledge in a way that's both engaging and approachable. Whether you're stepping into a dance studio for the first time or diving into the world of mixology, our events make it easy and fun to discover new interests.
+                </p> */}
+                <p style={{ fontsize: 18 }}>
+                Join us on this journey to celebrate life is small joys and big adventures. With Small World, you will discover a community that is as diverse and dynamic as the events we host. Lets make every moment count and turn every gathering into something unforgettable!
+                </p>
                 <br />
-                <h5 style={{ fontsize: 24 }}>
+                <p style={{ fontsize: 24 }}>
                   You must be 18 years or older to use Chatpug. See our{" "}
                   <Link href="/termsandconditions">Terms of Service</Link> and{" "}
                   <Link href="/CommunityGuidelines">Community Guidelines</Link>{" "}
                   for more information.
-                </h5>
+                </p>
                 <br />
-                <h4>Download ChatPug App today!</h4>
+                {/* <h4>Download ChatPug App today!</h4> */}
               </div>
             </div>
             <div className="col s12 l6 m6 center" style={{borderRadius:20}}>
